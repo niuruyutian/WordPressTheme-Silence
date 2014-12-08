@@ -34,7 +34,7 @@
 </head>
 <body id="windsays">
 	<div id="top">
-        		<?php wp_nav_menu( array('theme_location'  => 'top','container_class' => 'menu-nav-container','menu_class' => 'menu') ) ;?>
+        		<?php wp_nav_menu( array('theme_location'  => 'primary','container_class' => 'menu-nav-container','menu_class' => 'menu') ) ;?>
 	</div>
 		<i class="fa fa-search searchicon" title="搜索"></i>
 	<?php include(TEMPLATEPATH . '/searchform.php'); ?>
