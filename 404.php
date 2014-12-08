@@ -52,7 +52,7 @@ h2{
 <body>
 <div id="container">
 	<h1>404</h1>
-	<h2>您要查看的页面不存在</h2>
+	<h2>您要查看的页面不存在!</h2>
 	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="home">Home</a>
 </div>
 
