@@ -1,0 +1,27 @@
+html,.wrap,p,textarea,em {
+	font-family: 'Century Gothic','Microsoft YaHei',Verdana;
+
+}
+.childwrap fieldset {
+	width: 100%;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+.childwrap legend {
+	margin-left: 5px;
+	padding: 0 5px;
+	color: #2481C6;
+	cursor: pointer;
+}
+.childwrap textarea {
+	width: 100%;
+	font-size: 11px;
+	background: #E7E7E7;
+	border: none;
+	border-left: 4px solid #CCC
+}
+.childwrap textarea:focus {
+	outline: none;
+	border: none;
+	padding-left: 9px
+}
